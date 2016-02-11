@@ -19,7 +19,7 @@ function dateNow() {
  * When multiple arguments to function, JavaScript "arguments" becomes a key-value object
  * For single argument it is what gets passed down (array, string or other objects, functions etc)
  *
- * This function is only interested in processing it if it is an object otherwise it will
+ * This function is only interested in processing it if it is an object. Otherwise it will
  * return it without modification.
  * @param arg
  * @returns {*}
@@ -54,7 +54,6 @@ module.exports.error = function () {
  * @param msg
  */
 module.exports.info = function () {
-
   var args = processArgument(arguments);
   console.log(dateNow(), "INFO", args);
 };
