@@ -1,0 +1,15 @@
+{
+  "name": "creepy-logger",
+  "version": "1.0.0",
+  "description": "A simple wrapper module around the standard console.log",
+  "main": "logging.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ali Imtiaz",
+  "license": "MIT",
+  "dependencies": {
+    "dateformat": "^1.0.12",
+    "lodash": "^4.3.0"
+  }
+}
