@@ -46,7 +46,7 @@ function processArgument(arg) {
  */
 module.exports.error = function () {
   var args = processArgument(arguments);
-  console.log(dateNow(), "ERROR", args);
+  console.log("[" + dateNow() + "]" , "[ERROR]", args);
 };
 
 /**
@@ -55,7 +55,7 @@ module.exports.error = function () {
  */
 module.exports.info = function () {
   var args = processArgument(arguments);
-  console.log(dateNow(), "INFO", args);
+  console.log("[" + dateNow() + "]" , "[INFO]", args);
 };
 
 /**
@@ -64,7 +64,7 @@ module.exports.info = function () {
  */
 module.exports.warning = function () {
   var args = processArgument(arguments);
-  console.log(dateNow(), "WARN", args);
+  console.log("[" + dateNow() + "]", "[WARN]", args);
 };
 
 
